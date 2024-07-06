@@ -1,5 +1,5 @@
 output "azs" {
-    value = slice(local.az_names,0,2)
+    value = data.aws_availability_zones.azs.names
 }
 
 output "vpc_id" {
