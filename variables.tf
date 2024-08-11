@@ -1,6 +1,5 @@
 variable "vpc_cidr" {
     type = string
-    default = ""
 }
 
 variable "enable_dns_hostnames" {
